@@ -1,0 +1,18 @@
+@import (less) "../fonts/fonts.css";
+@import (less) "../libs/reset.css";
+@import (less) "variables.less";
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #000;
+}
+
+a {
+  color: @text-color;
+  &:hover {
+    color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
