@@ -1,5 +1,7 @@
 <template>
-  <p>There is "<strong>about</strong> page". Hope to appear soon</p>
+  <main>
+    <p>There is "<strong>about</strong> page". Hope to appear soon</p>
+  </main>
 </template>
 
 <script>

@@ -2,9 +2,7 @@
   <header>
     <Navigator />
   </header>
-  <main class="router-view">
-    <router-view />
-  </main>
+  <router-view style="min-width: 100vw; height: 100vh;"/>
 </template>
 
 <script lang="ts">
@@ -33,10 +31,6 @@ export default defineComponent({
   //min-width: 600px;
   header {
     height: fit-content;
-  }
-  .router-view {
-    min-width: 100vw;
-    height: 100vh;
   }
 }
 </style>

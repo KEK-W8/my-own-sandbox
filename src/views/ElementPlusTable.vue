@@ -1,14 +1,16 @@
 <template>
-  <div class="main-box">
-    <el-table
-      :data="tableData"
-      class="table"
-    >
-      <el-table-column prop="date" label="Date" width="180" />
-      <el-table-column prop="name" label="Name" width="180" />
-      <el-table-column prop="address" label="Address" />
-    </el-table>
-  </div>
+  <main>
+    <div class="table-box">
+      <el-table
+        :data="tableData"
+        class="table"
+      >
+        <el-table-column prop="date" label="Date" width="180" />
+        <el-table-column prop="name" label="Name" width="180" />
+        <el-table-column prop="address" label="Address" />
+      </el-table>
+    </div>
+  </main>
 </template>
 
 <script lang="ts" setup>
@@ -39,11 +41,10 @@ const tableData = [
 </script>
 
 <style lang="less" scoped>
-.main-box{
+.table-box{
   width: 100%;
   height: 100%;
   display: flex;
-  padding: 60px;
   .table {
     width: 700px;
     border-radius:4px;

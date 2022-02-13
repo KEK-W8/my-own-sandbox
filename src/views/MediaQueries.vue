@@ -1,7 +1,9 @@
 <template>
-  <div>
-    Background changes its color depends on device screen width
-  </div>
+  <main>
+    <div>
+      Background changes its color depends on device screen width
+    </div>
+  </main>
 </template>
 
 <script lang="ts">
@@ -10,6 +12,10 @@
 
 <style lang="less" scoped>
 @import url('~@/assets/style/variables.less');
+
+main {
+  padding: 0;
+}
 
 div {
   width: 100%;

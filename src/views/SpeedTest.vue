@@ -1,5 +1,7 @@
 <template>
-  <h3>Soon...</h3>
+  <main>
+    <h3>Soon...</h3>
+  </main>
 </template>
 
 <script>
